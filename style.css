@@ -1,0 +1,1265 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+li, a, button, h1, h2, p, h3, h4, h5, h6 {
+font-family:"Montserrat", sans-serif;
+text-decoration: none;
+}
+
+nav{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    padding: 0px 100px;
+    position:fixed;
+    margin-top: -5px;
+    z-index: 1
+    }
+
+nav .logo img{
+    float: left;
+    height: 70px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-left: -40px;
+}
+
+.logo img{
+    object-fit: cover;
+    width: 50px;
+    cursor:pointer;
+}
+
+nav ul{
+    float: right;
+    position:absolute;
+}
+
+nav ul li{
+display: inline-block;
+list-style: none;
+margin-top: 7px;
+margin-left: 60px;
+}
+
+nav ul li a{
+    font-size: 14px;
+    color: #C2C2C2;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0px 4px;
+}
+
+nav ul li a:hover{
+    color: white;
+}
+
+.herotext{
+margin-top: -500px; 
+margin-left: -20px;   
+position: absolute;
+}
+
+.hero{
+    max-width: 100%;
+}    
+
+.hero img{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+ 
+.iX{
+ font-size: 42px;
+ color: white; 
+ margin-top: -200px; 
+ margin-left: 115px;
+ position: absolute;
+}
+.iX h1{
+font-weight: 100;
+}
+    
+.subhead{
+font-size: 21px;
+margin-left: 115px;
+margin-top: 22px;
+margin-bottom: 20px;
+color: white;
+}
+
+.subhead h3{
+font-weight: 100;    
+}
+
+button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    width: 170px;
+    height: 50px;
+    padding-top: 13px;
+    padding left, right: 16px;
+    cursor: pointer;
+}
+
+.button1{
+    background-color: #0066FF; 
+    margin-left: 115px;
+    border-radius: 9px;
+    box-shadow: black;
+}
+
+.button1:hover{
+    background-color: #0127AA;
+}
+
+.button2{
+margin-left: 312px;
+margin-top: -50px;
+background-color: black;
+border-radius: 9px;
+box-shadow: black;
+position: absolute;
+width: 170px;
+    height: 50px;
+}
+
+.button2:hover{
+    background-color: #111111;
+}
+
+.ultimate{
+color: white;
+margin-left: 1100px;
+margin-top: 115px;
+}
+
+.ultimate h3{
+font-weight: 100;;    
+}
+
+.picture1{
+margin-left: 50px;
+margin-top: 130px;
+}
+
+.carX7 img{
+    width: 350px;
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.X7{
+margin-top: -176px;
+margin-left: 22px;
+margin-bottom: 1px;
+}
+
+.X7 h2{
+color: rgb(255, 255, 255);
+}
+
+.X7link a{
+margin-left: 12px;
+color: rgb(255, 255, 255);
+}
+
+.X7link a:hover{
+color: #acacac;   
+}
+
+.picture2{
+margin-left: 500px;
+margin-top: -512px;   
+}
+
+.car5series img{
+    width: 350px;
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.series5{
+    margin-top: -200px;
+    margin-left: 22px;
+    margin-bottom: 2px;
+    }
+
+    .series5 h2{
+    color: white;    
+    }
+
+.series5link a{
+margin-left: 22px;
+color: rgb(255, 255, 255);
+ }
+        
+.series5link a:hover{
+color: #acacac;   
+}
+
+.picture3{
+    margin-left: 950px;
+    margin-top: -519px;   
+    }
+    
+    .power img{
+        width: 350px;
+        height: 500px;
+        margin-bottom: 100px;
+    }
+    
+    .powercar{
+        margin-top: -200px;
+        margin-left: 22px;
+        margin-bottom: 2px;
+        }
+    
+        .powercar h2{
+        color: white;    
+        }
+    
+    .powercarlink a{
+    margin-left: 22px;
+    color: rgb(255, 255, 255);
+     }
+            
+    .powercarlink a:hover{
+    color: #acacac;   
+    }
+
+    .cars {
+    margin-left: 40px;
+    padding-top: 75px;       
+    }
+
+
+.gray {
+  width: 1425px;
+  height: 2900px;
+  background-color: #F3F3F3 ;
+  position: static;
+  margin-top: 105px;
+  padding-top: 20px;   
+}
+
+.dream{
+    font-size: 50px;
+    color: #000000;
+    font-weight: 100;
+    margin-left: 27px;  
+    margin-top: 63px;    
+}
+
+.button3{
+    margin-left: 34px;
+    margin-top: 20px;
+    width: 200px;
+    background: rgb(0, 0, 0);
+    box-shadow: black;
+    position: absolute;
+    border-radius: 9px;
+} 
+
+.button3 text{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button3:hover{
+    background-color: #111111;
+    }
+
+ .picture4{
+    margin-left: 700px;
+    margin-top: -190px;
+    }
+
+.series3 img{
+    width: 250px;
+    height: 400px;
+    margin-bottom: 20px;
+    }
+
+.series3car{
+    width: 250px;
+    height: 20px;
+    margin-top: -5px;
+    margin-left: 36px;
+    margin-bottom: 0px;
+    }
+
+.series3link{
+    margin-left: 65px;
+    color: rgb(255, 255, 255); 
+    margin-top: 20px;  
+    }
+
+.series3link a{
+    font-size: 15px;
+    color: black;
+}
+     
+.series3link a:hover{
+    color: #686868;  
+}
+
+.picture5{
+    margin-left: 1034px;
+    margin-top: -532px;
+}
+
+.X3 img{
+    width: 250px;
+    height: 400px;
+    margin-bottom: 20px;   
+}
+
+.X3car{
+    width: 250px;
+    height: 20px;
+    margin-top: -5px;
+    margin-left: 112px;
+    margin-bottom: 20px;    
+}
+
+.X3link{
+    margin-left: 75px;
+    color: rgb(255, 255, 255); 
+    margin-top: 15px;  
+    }
+
+.X3link a{
+    font-size: 15px;
+    color: black;
+}
+     
+.X3link a:hover{
+    color: #686868;  
+}
+
+.picture6{
+padding-top: 25px;       
+width: 1425px;
+height: 539px;
+}
+
+.mechanic{
+max-width: 100%;
+}
+
+.mechanic img{
+    width: 1425px;
+    height: 550px;  
+    object-fit: cover;
+}
+
+.mechanic-description{
+margin-top:-480px;
+margin-left: 750px;
+}
+
+.mechanic-description h1, h2{
+font-weight: 100;    
+}
+
+.introducing{
+    width: 250px;
+    height: 20px;
+    margin-top: -15px;
+    margin-left: -200px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    display: inline-block;
+    white-space: nowrap; 
+    color: white;  
+}
+
+.years3{
+    margin-top: 25px;
+    margin-left: -200px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 18px;      
+}
+
+.years3 h2{
+font-weight: 100;    
+}
+
+.mechanicbutton{
+    margin-left: -200px;
+    margin-top: 5px;
+    width: 200px;
+    background: rgb(255, 255, 255);
+    border-radius: 9px;
+    box-shadow: black;
+    position:relative;
+    color: rgb(0, 0, 0);
+}
+
+.mechanicbutton h2{
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.mechanicbutton:hover{
+    background-color: rgb(202, 202, 202);
+}
+
+.picture7{      
+    width: 1425px;
+    height: 550px;
+    }
+
+.picture7 h1, h2{
+font-weight: 100;    
+}    
+
+ .bmwapp img{
+    width: 1425px;
+    height: 550px;  
+    object-fit: cover;   
+ }
+
+ .app-description{
+    margin-top:-520px;
+    margin-left: 30px;
+    }
+
+    .download{
+        width: 250px;
+        height: 20px;
+        margin-top: -15px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        font-size: 35px;
+        display: inline-block;
+        white-space: nowrap; 
+        color: white;  
+    }
+
+    .connected{
+        margin-top: 25px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        color: white;
+        font-size: 18px;      
+    }
+
+    .connected h2{
+        font-weight: 100;    
+        }
+
+    .appbutton{
+        margin-left: 0px;
+        margin-top: 5px;
+        width: 200px;
+        border-radius: 9px;
+        box-shadow: black;
+        position:relative;
+        color: rgb(255, 255, 255);
+        background-color: #0066FF; 
+        box-shadow: black;
+    }    
+
+.ownership{
+    margin-top: 40px;
+    width: 1000px;
+    height: 1px;
+    font-size: 35px;
+    margin-left: 395px;
+    margin-bottom: 170px;
+}
+
+.ownership h1{
+font-weight: 600;  
+}
+
+.ownership-images{
+width: 100%;
+height: 200px;
+font-size: 15px;
+text-align: center;
+justify-content: center;
+display: flex;
+margin-left: -55px;
+margin-bottom: 100px;   
+}
+
+.ownership-images h1,h2{
+font-weight: bold;    
+}
+
+.ownership-images h2{
+font-size: 20px;    
+}
+
+.picture8-11{
+margin-left: 110px;
+}
+
+.description img{ 
+width: 90px;    
+}
+
+.caption{
+margin: 10px;
+}
+
+.ownershiplinks a{
+font-weight: 600; 
+font-size: 14px;   
+color: black;    
+}
+
+.ownershiplinks a:hover{
+color: lightgray;
+}
+
+.seriesbar{
+    width: 100%;
+    height: 75px;
+    background-color: #1C1C1C;
+    margin-top: 80px;
+    margin-bottom: 20px; 
+    z-index: 1;
+    display: flex;
+}
+
+.selectseries{
+padding-top: 28px;
+padding-left: 20px;
+color: #ffffff;
+cursor:pointer;
+}
+
+.selectseries h2{
+font-size: 14px;    
+}
+
+.selectseries h2:hover{
+    color: lightgrey    
+}
+
+.seriesbar ul{
+    float: left;   
+    }
+
+    .seriesbar ul li{
+        display: inline-block;
+        list-style: none;
+        margin-top: 27px;
+        margin-left: 60px;    
+    }    
+
+    .seriesbar ul li a{
+        font-size: 14px;
+        color: #ffffff;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 0px 4px;    
+    }
+
+.seriesbar ul li a:hover{
+color: lightgrey
+}    
+.mainfooter{
+margin-top: 60px;    
+display: flex;
+padding: 0px 50px; 
+}
+
+.footerAB{
+width: 580px;
+height: 500px;
+padding: 0;
+margin: 0;
+text-align: left;
+position: relative;
+margin-right: 35px;
+line-height: 40px;  
+}
+
+.discover{
+border-bottom: 1px solid #cacaca;
+padding-bottom: 24px;    
+}
+
+.discover h4{
+font-weight: 100;
+font-size: 12px;
+letter-spacing: 1px;   
+}
+
+.left{
+float: left;
+width: 50%;
+margin-top: 35px;
+}
+
+.left ul li{
+    list-style: none;  
+}
+
+
+.left ul li a{
+    font-size: 14px;
+    color: #000000;  
+}
+
+.left ul li a:hover{
+color: lightgray;     
+}
+
+.right{
+    float: left;
+    width: 50%;
+    margin-top: 35px;
+    }
+    
+    .right ul li{
+        list-style: none;  
+    }   
+
+
+.right ul li a{
+    font-size: 14px;
+    color: #000000;  
+}
+
+.right ul li a:hover{
+    color: lightgray;     
+    }
+
+.links{
+padding-top: 10px;
+color: black;  
+}
+
+.buy{
+    height: 65px;
+    border-bottom: 1px solid #cacaca;
+    padding-bottom: 24px;    
+}
+    
+.buy h4{
+        font-weight: 100;
+        font-size: 12px;
+        letter-spacing: 1px;   
+}
+    
+.footerB{
+        width: 580px;
+        height: 500px;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+        position: relative;
+        margin-right: 35px;
+        line-height: 40px;    
+}    
+
+.whitefooter ul{
+float: left;
+}
+
+.whitefooter ul li{
+display: inline-block;
+list-style: none;
+margin-top: 25px;
+margin-left: 60px;
+}
+
+.whitefooter ul li a{
+    font-size: 14px;
+    color: #000000;
+    font-weight: 100;
+    text-decoration: none;
+    padding: 0px 4px;
+}
+
+.whitefooter ul li a:hover{
+    color: rgb(124, 124, 124);
+}
+
+.bottomlist{
+    width: 100%;
+    max-width: 750px;
+    margin-top: -5px;    
+}
+
+.bottomlist ul li{
+    display: inline-block;
+    color:black;
+}
+
+#hamburger-menu input{
+display: none;    
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1300px){
+
+#hamburger-menu{
+    display: block;
+    position: relative;
+    top: 20px;
+    left: 960px;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+    margin-left: 0px;
+    margin-top: -25px;
+}
+
+#hamburger-menu input{
+    display: block;
+    width: 40px;
+    height: 32px;
+    top: -7px;
+    left: -5px;
+    cursor: pointer;
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
+    -webkit-touch-callout: none;
+    position: relative;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+#menu
+{
+  position: absolute;
+  width: 170%;
+  height: 650px;
+  margin: 20px 0 0 370px;
+  padding: 50px;
+  padding-top: 5px;
+  background: #000000;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  transform: translate(-80%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+#menu li a:hover{
+    color:rgb(155, 155, 155);
+}
+
+#hamburger-menu input:checked ~ ul
+{
+  transform: none;
+}
+
+.fa-bars:before {
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    margin-left: -650px;
+}
+
+
+.fa-times-circle:before{
+    color: white;
+    display: none;}
+
+
+
+.nav ul a{
+    display: block;    
+    font-size: 20px;
+    color: #ffffff;
+    margin:0;
+    }
+
+    .iX{
+font-size: 34px;
+}
+.herotext{
+margin-top: -410px;
+}
+
+.subhead{
+    font-size: 19px;
+    margin-top: -10px;
+}
+    
+.ultimate{
+visibility: hidden;
+}   
+
+.hero img{
+    width: 1300px;
+    height: 100%;
+}
+
+    .button1{
+        background-color: #0066FF; 
+        font-size: 14px;
+        margin-top: 10px;
+        margin-left: 115px;
+        width: 150px;
+        height: 45px;
+    }
+
+    .button2{
+        background-color: #000000; 
+        font-size: 14px;
+        margin-top: -47px;
+        margin-left: px;
+        width: 150px;
+        height: 50px;
+    }
+    
+    .cars{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;   
+    }
+
+.seriesbar{
+    display: none;
+}    
+
+
+.ownership h1{
+    font-size: 40px;
+}
+
+.ownership{
+    margin-top: 40px;
+    width: 1000px;
+    height: 1px;
+    font-size: 35px;
+    margin-left: 300px;
+    margin-bottom: 170px;
+}
+
+.ownership h1{
+font-weight: 600;  
+}
+
+.ownership-images{
+width: 100%;
+height: 200px;
+font-size: 15px;
+text-align: center;
+justify-content: center;
+display: flex;
+margin-left: -55px;
+margin-bottom: 100px;   
+}
+
+.ownership-images h1,h2{
+font-weight: bold;    
+}
+
+.ownership-images h2{
+font-size: 20px;    
+}
+
+.picture8-11{
+margin-left: 110px;
+}
+
+.description img{ 
+width: 90px;    
+}
+
+.caption{
+margin: 10px;
+}
+
+.ownershiplinks a{
+font-weight: 600; 
+font-size: 14px;   
+color: black;    
+}
+
+.ownershiplinks a:hover{
+color: lightgray;
+}
+
+    .mechanic{
+    max-width: 100%;
+    }
+    
+    .mechanic img{
+        width: 1425px;
+        height: 550px;  
+        object-fit: cover;
+    }
+    
+    .mechanic-description{
+    margin-top:-480px;
+    margin-left: 250px;
+    }
+    
+    .introducing{
+        width: 250px;
+        height: 20px;
+        margin-top: -15px;
+        margin-left: -200px;
+        margin-bottom: 20px;
+        font-size: 35px;
+        display: inline-block;
+        white-space: nowrap; 
+        color: white;  
+    }
+    
+    .years3{
+        margin-top: 25px;
+        margin-left: -200px;
+        margin-bottom: 20px;
+        color: white;
+        font-size: 18px;      
+    }
+    
+    .years3 h2{
+    font-weight: 100; 
+    font-size: 28px;   
+    }
+    
+    .mechanicbutton{
+        margin-left: -200px;
+        margin-top: 5px;
+        width: 200px;
+        background: rgb(255, 255, 255);
+        border-radius: 9px;
+        box-shadow: black;
+        position:relative;
+        color: rgb(0, 0, 0);
+    }
+    
+    .mechanicbutton h2{
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    
+    .mechanicbutton:hover{
+        background-color: rgb(202, 202, 202);
+}
+
+.picture5{
+    display: none;
+}
+}
+
+
+@media only screen and (max-width: 1200px){
+.hamburger-menu{
+    padding-left: 900px;
+}    
+
+.footerB{
+display: none;
+}
+
+.introducing h1{
+font-size: 45px;
+}
+}
+
+
+@media only screen and (max-width: 1000px){
+        .hamburger-menu{
+            padding-left: 700px;
+}    
+
+.iX{
+    font-size: 33px;
+    }
+    
+    .herotext{
+    margin-top: -280px;
+    margin-left: -40px;
+    }
+    
+    .subhead{
+        font-size: 19px;
+        margin-top: -10px;
+    }
+        
+    .ultimate{
+    visibility: hidden;
+    }   
+    
+    .hero img{
+        width: 1000px;
+        height: 700px;
+    }
+    
+        .button1{
+            background-color: #0066FF; 
+            font-size: 14px;
+            margin-top: 10px;
+            margin-left: 115px;
+            width: 150px;
+            height: 45px;
+        }
+    
+        .button2{
+            background-color: #000000; 
+            font-size: 14px;
+            margin-top: -47px;
+            margin-left: px;
+            width: 150px;
+            height: 50px;
+        }
+
+.right{
+    display: none;
+} 
+
+.picture4{
+ margin-left: 42px;   
+ margin-top: 80px;
+}
+
+.button3{
+    margin-left: 30px;    
+}
+
+.dream h1{
+    font-size: 60px;
+}
+}
+
+
+@media only screen and (max-width: 800px){
+    .hamburger-menu{
+        padding-left: 500px;
+        position: absolute;
+}    
+.iX{
+    font-size: 31px;
+    }
+    .herotext{
+    margin-top: -290px;
+    margin-left: -80px;
+    }
+    
+    .subhead{
+        font-size: 19px;
+        margin-top: -10px;
+    }
+        
+    .ultimate{
+    visibility: hidden;
+    }   
+    
+    .hero img{
+        width: 900px;
+        height: 700px;
+    }
+    
+        .button1{
+            background-color: #0066FF; 
+            font-size: 14px;
+            margin-top: 10px;
+            margin-left: 115px;
+            width: 150px;
+            height: 45px;
+        }
+    
+        .button2{
+            background-color: #000000; 
+            font-size: 14px;
+            margin-top: -47px;
+            margin-left: 290px;
+            width: 150px;
+            height: 50px;
+}
+
+.ownership{
+    margin-left: 145px;
+}
+
+.ownership h1{
+    font-size: 35px;
+}
+
+.whitefooter{
+    list-style: none; 
+    z-index: 1;   
+    width:100%;
+    height: 0px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;  
+    }
+
+.whitefooter ul li a{
+    font-size: 12px;
+    color: #000000;
+    font-weight: 100;
+    text-decoration: none;
+    padding: 0px 4px;
+} 
+
+.whitefooter li{
+    font-size: 12px;
+}
+
+.bottomlist{
+max-width: 650px;  
+}
+
+.whitefooter ul li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+ .app-description{
+    margin-top:-520px;
+    margin-left: 30px;
+    }
+
+    .download{
+        width: 150px;
+        height: 20px;
+        margin-top: -15px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        font-size: 35px;
+        display: inline-block;
+        white-space: nowrap; 
+        color: white;  
+    }
+
+    .download h1{
+        font-size: 37px;
+    }
+
+    .connected h2{
+        font-weight: 100;   
+        font-size: 20px; 
+        }
+
+    .appbutton{
+        margin-left: 0px;
+        margin-top: 5px;
+        width: 150px;
+        height: 45px;
+        border-radius: 9px;
+        box-shadow: black;
+        position:relative;
+        color: rgb(255, 255, 255);
+        background-color: #0066FF; 
+        box-shadow: black;
+        font-size: 14px;
+    }    
+
+    .picture7 button:hover{
+        background-color: #2277f8;
+    }
+
+.mechanic-description h1{
+    font-size: 40px;
+}    
+
+.years3 h2{
+    font-size: 25px;
+}
+
+.mechanicbutton{
+    margin-top: 5px;
+    width: 150px;
+    height: 45px;
+    border-radius: 9px;
+    box-shadow: black;
+    position:relative;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff; 
+    box-shadow: black;
+    font-size: 14px; 
+}
+
+.picture1{
+    margin-top: -10px;
+    margin-left: 40px;
+}
+}
+
+
+@media only screen and (max-width: 600px){
+    .hamburger-menu{
+        padding-left: 300px;
+        position: absolute;
+}    
+
+.ownership{
+    margin-left: 80px;
+}
+
+.ownership h1{
+    font-size: 30px;
+}
+
+.ownership-images{
+    margin-left: 20px;
+    margin-top: -70px;
+}
+
+.download h1{
+    font-size: 32px;
+}
+
+.connected h2{
+    font-weight: 100;   
+    font-size: 17px; 
+}
+
+.mechanic-description h1{
+    font-size: 25px;
+}    
+
+.years3 h2{
+    font-size: 21px;
+}
+
+.mechanicbutton{
+    margin-top: 5px;
+    width: 150px;
+    height: 45px;
+    border-radius: 9px;
+    box-shadow: black;
+    position:relative;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff; 
+    box-shadow: black;
+    font-size: 14px; 
+}
+}
